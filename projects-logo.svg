@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="projects-logo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 297 210"
+   height="210mm"
+   width="297mm">
+  <defs
+     id="defs2">
+    <rect
+       id="rect846"
+       height="20.235994"
+       width="69.380554"
+       y="170.56053"
+       x="21.199614" />
+    <rect
+       id="rect840"
+       height="116.59788"
+       width="32.763039"
+       y="175.37862"
+       x="139.72473" />
+    <linearGradient
+       id="linearGradient2766"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2762" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2764" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2766"
+       id="linearGradient2770"
+       gradientUnits="userSpaceOnUse"
+       x1="18.507927"
+       y1="102.37721"
+       x2="169.05994"
+       y2="102.37721" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="705"
+     inkscape:window-width="1366"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="586.88939"
+     inkscape:cx="400"
+     inkscape:zoom="0.27457261"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:41.1683px;line-height:1.25;font-family:Excluded;-inkscape-font-specification:'Excluded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke:none;stroke-width:0.564999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       x="19.166386"
+       y="45.335358"
+       id="text12-0"
+       inkscape:transform-center-x="-14.264388"
+       inkscape:transform-center-y="27.671865"
+       transform="scale(0.7937519,1.2598395)"><tspan
+         sodipodi:role="line"
+         id="tspan10-2"
+         x="19.166386"
+         y="45.335358"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:41.1683px;font-family:Excluded;-inkscape-font-specification:'Excluded, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke:none;stroke-width:0.564999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0">Projects</tspan></text>
+    <text
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect840);"
+       id="text838"
+       xml:space="preserve" />
+    <text
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect846);"
+       id="text844"
+       xml:space="preserve" />
+  </g>
+</svg>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact.html</title>
+    <link rel="stylesheet" href="contact.css"/>
+</head>
+<body>
+
+
+     <!--below is a style tag and div containing a loading icon-->
+
+     <style> 
+        #loader { 
+            border: 12px solid #f3f3f3; 
+            border-radius: 50%; 
+            border-top: 12px solid #444444; 
+            width: 170px; 
+            height: 170px; 
+            animation: spin 1s linear infinite; 
+            z-index: 3;
+        } 
+        
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+        
+        .center { 
+            position: absolute; 
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto;
+        }   
+        
+    </style> 
+    <div id="loader" class="center">
+    </div>
+    
+
+
+
+
+
+
+
+    <div id="container1">
+
+        <img id="logo" src="contact-logo.png"/>
+       
+        <img id="tag" src="haywood2-tagWhite.png"/>
+
+        <img id="tag1" src="smalTtagWhite.png"/>
+        <img id="tag2" src="smalTtagWhite.png"/>
+
+        <img id="blocks" src="blocks.png">
+        <img id="blocks2" src="blocks.png">
+        <img id="blocks3" src="blocks.png">
+        <img id="blocks4" src="blocks.png">
+
+        <img id="blocksColor" src="blocksColor.png">
+        <img id="blocksColor2" src="blocksColor.png">
+        <img id="blocksColor3" src="blocksColor.png">
+        <img id="blocksColor4" src="blocksColor.png">
+
+
+       
+        <div id="menuDiv">
+
+            <img id="menu" src="menu.png"/>
+
+            <a href="index.html"><img id="home" src="homeImg.png"/></a>
+            <a href="about.html"><img id="about" src="aboutImg.png"/></a>
+            <a href="projects.html"><img id="projects" src="projectsImg.png"/></a>
+            <a href="contact.html"><img id="contact" src="contactImg.png"/></a>
+
+     </div>
+
+        
+        
+         
+     <form class="contact-form" action="send.php" method="POST" onsubmit="return validation()">
+           
+        <input id="companyName" type="text" name="company_name" placeholder="  company name....">
+
+        <input id="name" type="text" name="name" placeholder="  your name....">
+    
+        <input id="email" type="text" name="email" placeholder="  e-mail....">
+    
+        <textarea id="info"name="message"placeholder=" your message..."></textarea>
+     
+      
+        <button id="submit" type="submit" name="sub-mit" value="submit">send</button>
+      
+         
+     </form>
+
+
+
+
+
+     
+        <div id="container3">
+      
+            <a href="index.html"><img id="homeBottom" src="homeImg.png"/></a>
+            <a href="about.html"><img id="aboutBottom" src="aboutImg.png"/></a>
+            <a href="projects.html"><img id="projectsBottom" src="projectsImg.png"/></a>
+            <a href="contact.html"><img id="contactBottom" src="contactImg.png"/></a>
+
+
+          
+        </div>
+
+          <!--below is a script tag for the loading icon-->
+
+      <script> 
+        this.document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                "#loader").style.display = "none"; 
+                document.querySelector( 
+                "body").style.visibility = "visible"; 
+            } 
+        }; 
+       
+    </script> 
+
+  
+  
+    <script src="contact.js"></script>
+</body>
+</html>

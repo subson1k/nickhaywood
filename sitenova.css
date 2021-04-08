@@ -1,0 +1,803 @@
+@keyframes wider {
+  0% {
+    left: 10vw;
+    width: 70vw;
+    top: 30vh;
+    opacity: 0;
+  }
+  100% {
+    width: 80vw;
+    top: 20vh;
+    left: 2vw;
+    opacity: 1;
+  }
+}
+
+@keyframes tag1 {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(45deg);
+    opacity: 1;
+  }
+}
+@keyframes tag2 {
+  0% {
+    transform: rotate(0deg);
+
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg);
+
+    opacity: 1;
+  }
+}
+
+@keyframes tag1Reverse {
+  0% {
+    transform: rotate(45deg);
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+}
+
+@keyframes tag2Reverse {
+  0% {
+    transform: rotate(-45deg);
+
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+}
+@keyframes tagPress {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  60% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(-250deg);
+  }
+}
+@keyframes tagBack {
+  0% {
+    opacity: 0;
+    transform: rotate(-250deg);
+  }
+  60% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes menuShow {
+  0% {
+    left: -30vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0vw;
+    opacity: 1;
+  }
+}
+@keyframes menuHide {
+  0% {
+    left: 0vw;
+    opacity: 1;
+  }
+  100% {
+    left: -30vw;
+    opacity: 0;
+  }
+}
+
+@keyframes logoSlide {
+  0% {
+    opacity: 0;
+    left: -35vw;
+  }
+  100% {
+    opacity: 1;
+    left: 5vw;
+  }
+}
+
+@keyframes Appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#blocks {
+  position: absolute;
+  top: 0vh;
+  left: 20vw;
+  width: 60vw;
+  height: 100vh;
+}
+
+@keyframes blockAppear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+html {
+  max-width: 100vw;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+  overflow: hidden;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#container1 {
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(rgb(226, 203, 210), rgb(0, 0, 0, 0)); */
+  background-color: rgb(10, 0, 0);
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+#logo {
+  position: absolute;
+  top: 5.7vh;
+  left: 5vw;
+  width: 20vw;
+  min-width: 150px;
+  z-index: 2;
+  animation: logoSlide 1s linear forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+
+#blocks {
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
+  width: 50vw;
+  height: 60vh;
+  z-index: 2;
+  animation: blockAppear 3s ease-in forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+#blocks2 {
+  position: absolute;
+  top: 50vh;
+  left: 30vw;
+  width: 30vw;
+  height: 60vh;
+  z-index: 2;
+  animation: blockAppear 3s ease-in forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+#blocks3 {
+  position: absolute;
+  top: 30vh;
+  left: 5vw;
+  width: 30vw;
+  height: 50vh;
+  z-index: 2;
+  animation: blockAppear 3s ease-in forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+#blocks4 {
+  position: absolute;
+  top: 25vh;
+  left: 55vw;
+  width: 35vw;
+  height: 70vh;
+  z-index: 2;
+  animation: blockAppear 3s ease-in forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+
+#blocksColor {
+  position: absolute;
+  top: 13vh;
+  left: 20vw;
+  width: 60vw;
+  height: 60vh;
+
+  animation: blockAppear 3s ease-in forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+#blocksColor2 {
+  position: absolute;
+  top: 30vh;
+  left: 35vw;
+  width: 35vw;
+  height: 60vh;
+
+  animation: blockAppear 3s ease-in forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+#blocksColor3 {
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+  width: 40vw;
+  height: 50vh;
+
+  animation: blockAppear 3s ease-in forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+#blocksColor4 {
+  position: absolute;
+  top: 10vh;
+  left: 45vw;
+  width: 45vw;
+  height: 75vh;
+
+  animation: blockAppear 3s ease-in forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+
+#tag {
+  position: absolute;
+  top: 6vh;
+  left: 85vw;
+  width: 6vw;
+  min-width: 40px;
+  z-index: 3;
+  animation: blockAppear 3s ease-in forwards;
+  opacity: 0;
+}
+
+#tag1 {
+  position: absolute;
+  top: 6.1vh;
+  left: 85vw;
+  width: 5.9vw;
+  min-width: 40px;
+  z-index: 1;
+  opacity: 0;
+}
+
+#tag2 {
+  position: absolute;
+  top: 6.1vh;
+  left: 85vw;
+  width: 5.9vw;
+  min-width: 40px;
+  z-index: 1;
+  opacity: 0;
+}
+
+#menuDiv {
+  position: fixed;
+  top: 0vh;
+  left: 0vw;
+  height: 100vh;
+  width: 30vw;
+  background-color: rgb(53, 67, 77);
+  opacity: 0;
+  z-index: 4;
+}
+#menu {
+  position: fixed;
+  top: 10vh;
+  left: 5vw;
+  width: 15vw;
+}
+
+#home {
+  position: fixed;
+  top: 35vh;
+  left: 5vw;
+  width: 10.5vw;
+}
+#about {
+  position: fixed;
+  top: 50vh;
+  left: 5vw;
+  width: 11vw;
+}
+#projects {
+  position: fixed;
+  top: 65vh;
+  left: 5vw;
+  width: 14.2vw;
+}
+#contact {
+  position: fixed;
+  top: 80vh;
+  left: 5vw;
+  width: 13.6vw;
+}
+
+#nicky {
+  position: absolute;
+  top: 40vh;
+  left: 5vw;
+  width: 25vw;
+  height: 35vh;
+  z-index: 4;
+  animation: blockAppear 2s ease-in forwards;
+  animation-delay: 3s;
+  opacity: 0;
+}
+
+#assult {
+  position: absolute;
+  top: 40vh;
+  left: 35vw;
+  width: 25vw;
+  height: 35vh;
+  z-index: 3;
+  animation: blockAppear 2s ease-in forwards;
+  animation-delay: 3s;
+  opacity: 0;
+}
+
+#weather {
+  position: absolute;
+  top: 40vh;
+  left: 65vw;
+  width: 25vw;
+  height: 35vh;
+  z-index: 3;
+  animation: blockAppear 2s ease-in forwards;
+  animation-delay: 3s;
+  opacity: 0;
+}
+
+#container3 {
+  position: absolute;
+  top: 100vh;
+  left: 0vw;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(138, 136, 136);
+  overflow-x: hidden;
+}
+
+#homeBottom {
+  position: absolute;
+  top: 3vh;
+  left: 1vw;
+  width: 8.5vw;
+  min-width: 50px;
+  z-index: 4;
+}
+#aboutBottom {
+  position: absolute;
+  top: 3vh;
+  left: 14vw;
+  width: 9.5vw;
+  min-width: 63px;
+  z-index: 4;
+}
+#projectsBottom {
+  position: absolute;
+  top: 3vh;
+  left: 30vw;
+  width: 12vw;
+  min-width: 63px;
+  z-index: 4;
+}
+#contactBottom {
+  position: absolute;
+  top: 3vh;
+  left: 45vw;
+  width: 12vw;
+  min-width: 63px;
+  z-index: 4;
+}
+
+@media (max-width: 1100px) {
+  #blocks {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    width: 70vw;
+    height: 50vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+
+  #nicky {
+    position: absolute;
+    top: 40vh;
+    left: 5vw;
+    width: 25vw;
+    height: 18vh;
+  }
+  #assult {
+    position: absolute;
+    top: 40vh;
+    left: 35vw;
+    width: 25vw;
+    height: 18vh;
+  }
+
+  #weather {
+    position: absolute;
+    top: 40vh;
+    left: 65vw;
+    width: 25vw;
+    height: 17.5vh;
+  }
+
+  #blocks {
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    width: 50vw;
+    height: 60vh;
+    z-index: 2;
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocks2 {
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    width: 30vw;
+    height: 60vh;
+    z-index: 2;
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocks3 {
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+    width: 30vw;
+    height: 50vh;
+    z-index: 2;
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocks4 {
+    position: absolute;
+    top: 25vh;
+    left: 55vw;
+    width: 35vw;
+    height: 70vh;
+    z-index: 2;
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+
+  #blocksColor {
+    position: absolute;
+    top: 13vh;
+    left: 20vw;
+    width: 60vw;
+    height: 60vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocksColor2 {
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    width: 35vw;
+    height: 60vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocksColor3 {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    width: 40vw;
+    height: 50vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocksColor4 {
+    position: absolute;
+    top: 10vh;
+    left: 45vw;
+    width: 45vw;
+    height: 75vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+
+  #homeBottom {
+    position: absolute;
+    top: 3vh;
+    left: 1vw;
+    width: 8.5vw;
+    min-width: 50px;
+    z-index: 4;
+  }
+  #aboutBottom {
+    position: absolute;
+    top: 3vh;
+    left: 26vw;
+    width: 9.5vw;
+    min-width: 53px;
+    z-index: 4;
+  }
+  #projectsBottom {
+    position: absolute;
+    top: 3vh;
+    left: 55vw;
+    width: 12vw;
+    min-width: 63px;
+    z-index: 4;
+  }
+  #contactBottom {
+    position: absolute;
+    top: 3vh;
+    left: 82vw;
+    width: 12vw;
+    min-width: 63px;
+    z-index: 4;
+  }
+
+  #container3 {
+    position: absolute;
+    top: 100vh;
+    left: 0vw;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(138, 136, 136);
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+  #menu {
+    position: fixed;
+    top: 10vh;
+    left: 5vw;
+    width: 15vw;
+    min-width: 80px;
+  }
+  #home {
+    position: fixed;
+    top: 30vh;
+    left: 5vw;
+    width: 10vw;
+    min-width: 68px;
+  }
+  #about {
+    position: fixed;
+    top: 40vh;
+    left: 5vw;
+    width: 10vw;
+    min-width: 70px;
+  }
+  #projects {
+    position: fixed;
+    top: 50vh;
+    left: 5vw;
+    width: 14vw;
+    min-width: 90px;
+  }
+  #contact {
+    position: fixed;
+    top: 60vh;
+    left: 5vw;
+    width: 14vw;
+    min-width: 90px;
+  }
+
+  #blocks {
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    width: 50vw;
+    height: 30vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocks2 {
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    width: 50vw;
+    height: 30vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocks3 {
+    position: absolute;
+    top: 40vh;
+    left: 5vw;
+    width: 50vw;
+    height: 30vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocks4 {
+    position: absolute;
+    top: 50vh;
+    left: 15vw;
+    width: 65vw;
+    height: 40vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+
+  #blocksColor {
+    position: absolute;
+    top: 13vh;
+    left: 20vw;
+    width: 60vw;
+    height: 60vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocksColor2 {
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    width: 35vw;
+    height: 60vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocksColor3 {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    width: 40vw;
+    height: 50vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  #blocksColor4 {
+    position: absolute;
+    top: 10vh;
+    left: 45vw;
+    width: 45vw;
+    height: 75vh;
+
+    animation: blockAppear 3s ease-in forwards;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+
+  #nicky {
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    width: 50vw;
+    height: 18vh;
+  }
+  #assult {
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+    width: 50vw;
+    height: 18vh;
+  }
+
+  #weather {
+    position: absolute;
+    top: 76vh;
+    left: 25vw;
+    width: 50vw;
+    height: 17.5vh;
+  }
+  #homeBottom {
+    position: absolute;
+    top: 3vh;
+    left: 1vw;
+    width: 8.5vw;
+    min-width: 50px;
+    z-index: 4;
+  }
+  #aboutBottom {
+    position: absolute;
+    top: 3vh;
+    left: 26vw;
+    width: 9.5vw;
+    min-width: 53px;
+    z-index: 4;
+  }
+  #projectsBottom {
+    position: absolute;
+    top: 3vh;
+    left: 55vw;
+    width: 12vw;
+    min-width: 63px;
+    z-index: 4;
+  }
+  #contactBottom {
+    position: absolute;
+    top: 3vh;
+    left: 82vw;
+    width: 12vw;
+    min-width: 63px;
+    z-index: 4;
+  }
+
+  #container3 {
+    position: absolute;
+    top: 100vh;
+    left: 0vw;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(138, 136, 136);
+    overflow-x: hidden;
+  }
+}
